@@ -10,6 +10,6 @@ app.get('/',function(request,response){
 })
 
 
-const listener = app.listen(5001, function() {
+const listener = app.listen(80, function() {
 	console.log('Aplicação disponível na porta 5001' );
 });
