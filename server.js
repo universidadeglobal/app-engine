@@ -1,7 +1,7 @@
 
 const express = require('express');
 const app = express();
-
+require('@google-cloud/profiler').start();
 
 app.use(express.static(__dirname));
 
